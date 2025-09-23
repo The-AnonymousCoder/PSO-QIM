@@ -3,14 +3,13 @@ clear;          % 清除工作区中的所有变量
 close all;      % 关闭所有打开的图形窗口
 
 % 1. 源文件
-originshpfile = '/Users/wangfugui/Desktop/X老师/复现算法/顶点加密算法_PSO/Embed/Embed_pso_20_1_shanghai_landuse.shp';
-% originshpfile = 'pso_data/shanghai_landuse';
-outshpfile = 'shanghai_landuse.shp';
-watermarkImg = '猫爪32.png';
+originshpfile = 'pso_data/Railways.shp';
+outshpfile = 'Railways.shp';
+watermarkImg = 'M.png';
 
 % 嵌入水印
 embedshp = originshpfile; % 调用嵌入函数替换为实际实现
-% embedshp = sdwt_embed_pso(originshpfile, outshpfile, watermarkImg, 20, 30);
+embedshp = sdwt_embed_pso(originshpfile, outshpfile, watermarkImg, 20, 30);
 
 % 记录每种攻击的名称和对应的 NC 值、BER 值
 attack_names = {
