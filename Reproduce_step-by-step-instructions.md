@@ -3,13 +3,7 @@ The instructions below guide you through each experiment, starting from data pre
 
 Step-by-Step Reproduction Instructions
 
-Watermark Embedding and Extraction
-  Run the sdwt_embed_pso.m script to embed a watermark into vector geographical data.
-  Run the sdwt_extract_TS.m script to extract the embedded watermark.
-
-
 Fig. 11. The Negative Probability improvement effects of PSO
-  Run the sdwt_embed_check.m file to embed the watermark without PSO.
   Run the sdwt_embed_pso.m file to embed the watermark using PSO.
   The output will display the negative probability effects of PSO, which you can use for Figure 11.
 
