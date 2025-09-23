@@ -3,7 +3,6 @@ clear;          % 清除工作区中的所有变量
 close all;      % 关闭所有打开的图形窗口
 
 % 1.Railways Building Landuse  Boundary Road  Lake
-originshpfile = '/Users/wangfugui/Desktop/X老师/复现算法/顶点加密算法_PSO/Embed/Embed_pso_20_1_shanghai_landuse.shp';
 originshpfile = 'pso_data/Railways.shp';
 outshpfile = 'Railways.shp';
 watermarkImg = 'M.png';   
