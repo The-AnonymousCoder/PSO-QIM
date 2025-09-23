@@ -13,7 +13,7 @@ tic;            % 开始计时，计算程序运行时间
 % outshpfilename = 'building'; hyda3857 landuse waterways output        % 设置原输出shapefile的路径
 % outshpfilename = 'landuse';            % 设置输出shapefile的路径
 % 
-% originshpfile='vector map/output.shp';
+% originshpfile='pso_data/building.shp';
 originshpfile=shaperead(originshpfile);         % 读取shapefile中的形状数据
 
 % wo = '猫爪32.png';                % 设置水印图片的文件名
