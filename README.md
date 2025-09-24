@@ -1,4 +1,3 @@
-# PSO-QIM
 # Watermarking Vector Geographic Data with Virtual Vertices and Iterative Optimization in the Wavelet Domain
 
 This document outlines the necessary steps to reproduce the results from the paper, including Figures 11-15, Tables 2-6. 
